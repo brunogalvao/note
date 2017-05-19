@@ -52,6 +52,7 @@
             <div class="bg-primary titulo-adm">Mostrar Post's</div>
 
             <div id="mostra_post"></div>
+            <div id="mostra_post"></div>
         </div>
         
     </div>
