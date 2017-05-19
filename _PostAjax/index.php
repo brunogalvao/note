@@ -61,7 +61,7 @@
             </div>
 
             <div class="texto">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius natus pariatur rem dolores suscipit nesciunt, maxime molestias omnis consequatur necessitatibus, minima, porro saepe atque, illo ipsam eum. Repellendus, sequi, impedit!
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius natus pariatur rem dolores suscipit nesciunt, maxime molestias omnis consequatur necessitatibus, minima, porro saepe atque, illo ipsam eum. Repellendus, sequi, impedit!</p>
             </div>
 
         </div>
