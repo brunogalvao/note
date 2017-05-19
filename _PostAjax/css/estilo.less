@@ -1,0 +1,132 @@
+@import "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css";
+
+//FONT
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina|Open+Sans:100,300,400,400i,700,700i');
+
+@logo: 'Baloo Bhaina', cursive;
+@texto: 'Open Sans', sans-serif;
+
+body { font-family: @texto; outline: none; color: #4D4D4D; }
+
+nav {
+    position: relative;
+    width: 100%;
+    display: flex !important;
+    list-style: none;
+    margin-bottom: 20px;
+    li { 
+        width: 100%; 
+        height: 50px; 
+        background: #e1e1e1; 
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        margin-right: 10px;
+        cursor: pointer;
+        transition: .3s ease all;
+        font-size: 2rem;
+        &:hover { background: royalblue; color: #fff }
+        &:last-child { margin-right: 0px; }
+    }
+}
+
+iframe { position: relative; width: 100%; height: calc(~"74vh" - 20px); margin-top: 20px; }
+.select { background: royalblue; color: #fff; }
+#mostra_promo { position: relative; width: 100%; float: left; }
+
+#mostra_post { width: 100%; margin-bottom: 50px; background: #f1f1f1; padding: 5px; padding-bottom: 10px; }
+#tabela-post input { width: 45vw; padding: 10px; font-weight: 300 }
+#tabela-post textarea { width: 45vw; padding: 10px; font-weight: 300 }
+#tabela-post .btn { width: 100px !important; }
+#enviar-post { position: relative; float: left; width: 100%; margin-bottom: 50px; }
+.jumbotron { border-bottom: 1px solid #4d4d4d; }
+
+.titulo-adm {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-size: 3rem;
+}
+
+.bt-Showpost {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    div { 
+        width: 100%;
+        height: 100%;
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        flex-direction: column; 
+        margin-right: 20px;
+        background: orange;
+        color: #000;
+        &:last-child { margin-right: 0px; }
+    }
+}
+
+.sair { 
+    position: relative; 
+    width: 4rem; 
+    height: 4rem; 
+    background: red; 
+    float: right; 
+    margin-bottom: 30px; 
+    border-radius: 50%;
+    transition: all ease .3s;
+    cursor: pointer;
+    &:hover { background: darkred; animation: 45deg }
+    i { font-size: 4rem; height: 100%; color: #fff; display: flex; align-items: center; justify-content: center } 
+}
+
+section { 
+    padding: 10px; 
+    h3 { color: orange; background: black; padding: 10px; }
+    a { i { color: #fff } }
+}
+
+.slide {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    background: royalblue;
+    float: left;
+    li{ width: 100%; height: 100%; }
+}
+
+.destaque {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    div { position: relative; width: 100%; height: 100%; background: orange; margin-right: 20px; display: flex; align-items: center; justify-content: center; }
+}
+
+.parte {
+    position: relative;
+    width: 100%;
+    float: left;
+}
+
+#delete {
+    position: relative;
+    width: 100%;
+    float: left;
+    background: red;
+}
